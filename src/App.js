@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome to Devops channel</h1>
         <p>
           Welcome to devOpsChannel. Please subscribe if you like my sharing!
         </p>
