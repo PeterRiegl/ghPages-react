@@ -1,9 +1,5 @@
 name: Testing and building my app
-on: 
-  push:
-    branches: main
-    path:
-      - 'App.js'
+on: ['push', 'workflow_dispatch']
 jobs:
   test:
     runs-on: ubuntu-24.04
